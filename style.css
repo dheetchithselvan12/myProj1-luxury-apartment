@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Atkinson Hyperlegible Mono", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F8F8F8;
+}
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+.header a {
+    text-decoration: none;
+}
+
+.header a h1 {
+    color: #A0B6CD;
+    font-size: 28px;
+    cursor: pointer;
+}
+.header ul {
+    display: flex;
+    gap: 30px;
+}
+
+ul li{
+    list-style: none;
+    border: 1px solid #bdbdbd;
+    padding: 10px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+ul li:hover {
+    background: #A0B6CD;
+    color: #fff;
+}
+ul li:hover a{
+    color: #fff;
+}
+
+ul li a {
+    color: #969494;
+    text-decoration: none;
+}
+.more-link a {
+    color: #969494;
+    text-decoration: none;
+    border:1px solid #6f6f6f;
+    padding: 12px 0 12px 13px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in;
+}
+.more-link a i {
+    background: #A0B6CD;
+    padding: 15px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 15px;
+}
+
+.more-link a:hover {
+    background: #A0B6CD;
+    color: #fff;
+}
+
+.more-link a:hover i{
+    background: #fff;
+    color: #A0B6CD;
+
+}
