@@ -78,3 +78,103 @@ ul li a {
     color: #A0B6CD;
 
 }
+
+/* Hero section */
+
+.hero {
+    display: flex;
+    margin: 30px 30px 0;
+    background: #F8F8F8;
+}
+.left-container {
+    width: 30%;
+}
+.left-container p {
+    font-size: 18px;
+}
+.left-container img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.left-container h4 {
+    font-size: 24px;
+    padding: 10px;
+}
+
+.left-container div {
+    display: flex;
+    width: 95%;
+    padding-top: 60px;
+    font-size: 16px;
+}
+
+.right-container {
+    width: 70%;
+    position: relative;
+}
+.right-container h1 {
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+
+.right-container img {
+    width: 70%;
+    height: auto;
+    border-radius: 30px;
+
+}
+
+.right-container .card-container {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    width: 25%;
+}
+
+.right-container .card1 {
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+.right-container .card1:hover {
+    background: #f5f1f1;
+}
+.right-container .card1 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+.right-container .card1 h5 {
+    font-size: 15px;
+}
+.right-container .card1 i {
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+.right-container .card1 i:hover {
+    background: #cac7c7;
+
+}
+
+.right-container .card2 {
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px 20px;
+    cursor: pointer;
+}
+.right-container .card2:hover {
+    background: #f5f1f1;
+}
