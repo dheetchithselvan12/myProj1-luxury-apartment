@@ -178,3 +178,33 @@ ul li a {
 .right-container .card2:hover {
     background: #f5f1f1;
 }
+
+.information {
+    display: flex;
+    margin: 30px 10px;
+}
+.information .card1 {
+    width: 50%;
+    height: 120px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #A0B6CD;
+    padding: 20px;
+}
+.information .card1 img{
+    width: 50%;
+    height: auto;
+}
+
+.information .card2 {
+    border-radius: 30px;
+    width: 50%;
+    height: 20px;
+}
+.information .card2 img {
+    width: 90%;
+    height: 100px;
+    margin: 10px 30px;
+}
